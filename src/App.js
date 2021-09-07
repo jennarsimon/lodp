@@ -3,7 +3,6 @@ import './index.css';
 
 import { NavBar } from './components/NavBar.jsx';
 import { HomePage } from './components/HomePage.jsx';
-import { Datasets } from './components/Datasets.jsx';
 import { DatasetInfo } from './components/DatasetInfo.jsx';
 import { AddDataset } from './components/AddDataset.jsx';
 import { AboutUs } from './components/AboutUs.jsx';
@@ -24,9 +23,6 @@ class App extends Component {
         break;
       case '/aboutus':
         currentPage = <AboutUs />;
-        break;
-      case '/datasets':
-        currentPage = <Datasets />;
         break;
       case '/datasetInfo':
         currentPage = <DatasetInfo />;

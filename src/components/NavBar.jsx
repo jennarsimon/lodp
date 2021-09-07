@@ -15,7 +15,6 @@ export class NavBar extends React.Component {
                 </Navbar.Brand>
                 <Navbar.Collapse>
                     <Nav>
-                    <Nav.Link id="link" className="brown-text" href="/datasets">Datasets</Nav.Link>
                     <Nav.Link id="link" className="brown-text" href="/aboutus">About Us</Nav.Link>
                     <Nav.Link id="link" className="brown-text" href="/contribute">Contribute a Dataset</Nav.Link>
                     </Nav>

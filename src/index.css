@@ -52,7 +52,7 @@ Nav {
 
 #nav img {
   height: 40px;
-  padding: 5px;
+  padding: 10px;
 }
 
 .nav-link {
@@ -61,8 +61,8 @@ Nav {
 }
 
 #link {
-  padding-left: 15px;
-  margin: 10px;
+  padding-right: 15px;
+  padding-left: 20px;
 }
 
 .nav-link:hover {
@@ -78,7 +78,7 @@ Nav {
 .footer {
   position: interit;
   bottom: 0;
-  padding: 15px;
+  padding-bottom: 15px;
   width: 100%;
   text-align: center;
   font-size: 15px;
