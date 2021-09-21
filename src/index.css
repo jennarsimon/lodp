@@ -82,6 +82,7 @@ Nav {
   width: 100%;
   text-align: center;
   font-size: 15px;
+  margin-top: 80px;
 }
 
 .footer a {
@@ -101,3 +102,9 @@ Nav {
 .pale-brown {
   background-color: #ece4da;
 } 
+
+/* ADD DATASET */
+#google-form {
+  margin: 0 auto;
+  display: block;
+}
