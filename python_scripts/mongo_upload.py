@@ -5,23 +5,6 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-def get_database():
-    from pymongo import MongoClient
-    import pymongo
-
-    # Provide the mongodb atlas url to connect python to mongodb using pymongo
-    CONNECTION_STRING = """mongodb://bw-tech-innovation:{password}@cluster0-shard-00-00.
-    1fl5q.mongodb.net:27017,cluster0-shard-00-01.1fl5q.mongodb.net:27017,
-    cluster0-shard-00-02.1fl5q.mongodb.net:27017/myFirstDatabase?ssl=true&replicaSet=
-    atlas-o8rmgo-shard-0&authSource=admin&retryWrites=true&w=majority""".format(password=os.getenv('PASS'))
-
-    # Create a connection using MongoClient. You can import MongoClient or use pymongo.MongoClient
-    from pymongo import MongoClient
-    client = MongoClient(CONNECTION_STRING)
-
-    # Create the database for our example (we will use the same database throughout the tutorial
-    return client['lodp_datasets']
-
 def make_json(csvPath, jsonPath, data):
 
     output = {}
@@ -32,7 +15,12 @@ def make_json(csvPath, jsonPath, data):
         for rows in csvReader:
             if data:    
                 key = rows['Id']
-                output[key] = rows[1:]
+                # Delete any unwanted elements from
+                # final JSON object
+                del rows['Id']
+                del rows['ID']
+                del rows['School']
+                output[key] = rows
             else:
                 output = rows
 
@@ -43,7 +31,6 @@ def make_json(csvPath, jsonPath, data):
 if __name__ == "__main__":    
     
     # Get the database
-    dbname = get_database()
     csvPath1 = './princeton_review/princeton_review_data.csv'
     full_data_path = './princeton_review/princeton_review.json'
 
@@ -62,3 +49,7 @@ if __name__ == "__main__":
         metadata["Data"] = full_data
         file.seek(0)
         json.dump(metadata, file, indent=4)
+
+    json_object = open(metadata_path, "r", encoding='utf-8-sig')
+    final_data = json.load(json_object)
+
