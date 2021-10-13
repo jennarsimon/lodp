@@ -13,13 +13,17 @@ import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import Button from 'react-bootstrap/Button';
 
+export const result = props =>{ //Exporting the search result component
+
+}
 
 
 
 export const TagsInput = props =>{
   const [tags, setTags] = React.useState([]);
-  //Removing tags (x)
-  const removeTags = indexToRemove => {
+  //Displaying info
+  const displayInfo = indexToRemove => {
+      console.log(result);
     setTags(tags.filter((_, index) => index !== indexToRemove)); //keep elements in array that do not have the index to remove within the array
   }
   const addTags = event => {
@@ -36,6 +40,12 @@ export const TagsInput = props =>{
 <div className="tags-input">
         <ul>
           {
+
+              <result 
+              
+              onClick ={() => displayInfo(index)}>title</result>
+
+
             tags.map((tag, index) => (<li key={index}>
               
               <StyledButton variant="primary">{tag}</StyledButton>{' '}
