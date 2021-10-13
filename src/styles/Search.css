@@ -1,0 +1,14 @@
+#search-bar {
+    /* position: absolute !important; */
+    font-weight: italic !important;
+    color: rgb(0, 0, 0) !important;
+    width:100% !important;
+    height: 50px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    /* margin: 1%; */
+    border-radius: 10px !important;
+    text-align: left;
+}
+
+
+
