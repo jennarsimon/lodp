@@ -3,6 +3,7 @@ import {
     Container, 
     Row,
     Col,
+    Accordion,
     Form,
     FloatingLabel
 } from 'react-bootstrap';
@@ -11,13 +12,8 @@ import "../styles/Search.css";
 export class Search extends React.Component {
     render() {
         return (
-            <form action="/" method="get">
-                <input 
-                    id="search-bar" 
-                    name="search-input" 
-                    type="text" 
-                    placeholder="Search by dataset name or category..."
-                />
+            <form>
+                <input type="text" name="search" id="search-bar" placeholder="Search.."/>
             </form>
         );
     }
@@ -25,14 +21,33 @@ export class Search extends React.Component {
 
 function SearchFilter(){
     return(
-        <FloatingLabel controlId="floatingSelect" label="Filter">
-            <Form.Select aria-label="Floating label select example">
-                <option>Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </Form.Select>
-        </FloatingLabel> 
+        <Accordion defaultActiveKey="0">
+            <Accordion.Item eventKey="0">
+                <Accordion.Header>Categories</Accordion.Header>
+                <Accordion.Body>
+                    <Form.Check type='checkbox' id={`Cat1`} label={`Category 1`} />
+                    <Form.Check type='checkbox' id={`Cat2`} label={`Category 2`} />
+                    <Form.Check type='checkbox' id={`Cat3`} label={`Category 3`} />
+                    {/* <form>
+                        <label>
+                            <input type="checkbox"/> 
+                        Category 1
+                        </label>
+                
+                        <label>
+                            <input type="checkbox"/> 
+                        Category 2
+                        </label>
+                    </form> */}
+                </Accordion.Body>
+            </Accordion.Item>
+            <Accordion.Item eventKey="1">
+                <Accordion.Header>File Types</Accordion.Header>
+                <Accordion.Body>
+                    Body 2
+                </Accordion.Body>
+            </Accordion.Item>
+        </Accordion>
     );
 }
 
