@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import '../index.css';
+import logo from '../assets/images/Logo.png';
 
 export class NavBar extends React.Component {
 
@@ -11,7 +12,7 @@ export class NavBar extends React.Component {
             <div id="nav">
                 <Navbar className='navbar'>
                 <Navbar.Brand href="/">
-                    <img alt='LOPD' src={process.env.PUBLIC_URL + '/Logo.png'} />
+                    <img alt='LOPD' src={logo} />
                 </Navbar.Brand>
                 <Navbar.Collapse>
                     <Nav>
