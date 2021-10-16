@@ -27,7 +27,7 @@ export class AboutUs extends React.Component {
                     <div id='directoryDiv'>
                         <div>
                             <div>
-                                <img src={hannah} />
+                                <img alt='hannah' src={hannah} />
                             </div>
                             <div>
                                 <h2>Hannah Leland, 2022</h2>
@@ -35,7 +35,7 @@ export class AboutUs extends React.Component {
                         </div>
                         <div>
                             <div>
-                                <img src={jenna} />
+                                <img alt='jenna' src={jenna} />
                             </div>
                             <div>
                                 <h2>Jenna Simon, 2022</h2>
@@ -43,7 +43,7 @@ export class AboutUs extends React.Component {
                         </div>
                         <div>
                             <div>
-                                <img src={jiSoo} />
+                                <img alt='jisoo' src={jiSoo} />
                             </div>
                             <div>
                                 <h2>JiSoo Park, 2023</h2>
@@ -51,7 +51,7 @@ export class AboutUs extends React.Component {
                         </div>
                         <div>
                             <div>
-                                <img src={papa} />
+                                <img alt='papa' src={papa} />
                             </div>
                             <div>
                                 <h2>Papa Kofi Asibuo, 2024</h2>
@@ -59,7 +59,7 @@ export class AboutUs extends React.Component {
                         </div>
                         <div>
                             <div>
-                                <img src={adrian} />
+                                <img alt='adrian' src={adrian} />
                             </div>
                             <div>
                                 <h2>Adrian Ross, 2024</h2>
@@ -67,7 +67,7 @@ export class AboutUs extends React.Component {
                         </div>
                         <div>
                             <div>
-                                <img src={carl} />
+                                <img alt='carl' src={carl} />
                             </div>
                             <div>
                                 <h2>Carl Freyer, 2025</h2>
@@ -75,7 +75,7 @@ export class AboutUs extends React.Component {
                         </div>
                         <div>
                             <div>
-                                <img src={daniella} />
+                                <img alt='daniella' src={daniella} />
                             </div>
                             <div>
                                 <h2>Daniella Stokic, 2025</h2>
@@ -83,7 +83,7 @@ export class AboutUs extends React.Component {
                         </div>
                         <div>
                             <div>
-                                <img src={abigail} />
+                                <img alt='abigail' src={abigail} />
                             </div>
                             <div>
                                 <h2>Abigail Vogel, 2025</h2>
