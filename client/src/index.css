@@ -139,3 +139,31 @@ body {
     display: block;
   }
   
+  /* ABOUT PAGE */
+
+  #aboutDiv{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  #aboutDiv h1{
+    text-align: center;
+  }
+  #aboutDiv h2{
+    text-align: center;
+    font-size: 1rem;
+  }
+  #directoryDiv{
+    text-align: center;
+    display:  flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  #directoryDiv img{
+    height: 300px;
+    width: 220px;
+  }

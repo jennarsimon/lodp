@@ -11,6 +11,7 @@ import Footer from "./components/Footer.jsx";
 import HomePage from "./components/HomePage.jsx";
 import AboutUs from "./components/AboutUs.jsx";
 import AddDataset from "./components/AddDataset.jsx";
+// import Datasets from "./components/Datasets";
 
 const App = () => {
   const url = window.location.href;
@@ -23,6 +24,7 @@ const App = () => {
       <Route exact path="/" component={HomePage} />
       <Route exact path="/about-us" component={AboutUs} />
       <Route exact path="/contribute" component={AddDataset} />
+      {/* <Datasets /> */}
       <Footer />
     </div>
   );
