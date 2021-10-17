@@ -9,7 +9,7 @@ import {
 import DatasetList from './Dataset';
 import "../styles/Search.css";
 
-export class Search extends React.Component {
+export class SearchBar extends React.Component {
     render() {
         return (
             <form>
@@ -56,7 +56,7 @@ const SearchPage = () => {
         <Container fluid>
             <Row>
                 <Col>
-                    <Search/>
+                    <SearchBar/>
                 </Col>
             </Row>
             <Row>
