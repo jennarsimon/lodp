@@ -116,8 +116,13 @@ Nav {
   align-items: center;
   flex-direction: column;
 }
-#aboutDiv h1{
+#aboutUsTitle{
+  text-align: left;
+  color: rgb(99, 52, 2);
+}
+#directoryTitle{
   text-align: center;
+  color: rgb(99, 52, 2);
 }
 #aboutDiv h2{
   text-align: center;
@@ -133,5 +138,5 @@ Nav {
 }
 #directoryDiv img{
   height: 300px;
-  width: 220px;
+  width: 300px;
 }
