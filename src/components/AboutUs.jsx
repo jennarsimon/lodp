@@ -2,7 +2,7 @@ import React from 'react';
 import jenna from '../assets/images/jenna.jpeg';
 import daniella from '../assets/images/daniella.jpeg';
 import hannah from '../assets/images/hannah.jpeg';
-import papa from '../assets/images/default.png';
+import papa from '../assets/images/papa.jpeg';
 import jiSoo from '../assets/images/default.png';
 import adrian from '../assets/images/adrian.png';
 import carl from '../assets/images/carl.jpeg';
