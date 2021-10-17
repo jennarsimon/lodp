@@ -37,3 +37,4 @@ class searchResult extends React.Component{
     }
 }
 
+export default searchResult;
