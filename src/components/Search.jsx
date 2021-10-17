@@ -5,15 +5,15 @@ import {
     Col,
     Accordion,
     Form,
-    FloatingLabel
 } from 'react-bootstrap';
+import DatasetList from './Dataset';
 import "../styles/Search.css";
 
 export class Search extends React.Component {
     render() {
         return (
             <form>
-                <input type="text" name="search" id="search-bar" placeholder="Search.."/>
+                <input type="text" id="search-bar" placeholder="Search by dataset or category..."/>
             </form>
         );
     }
@@ -63,7 +63,9 @@ const SearchPage = () => {
                 <Col>
                     <SearchFilter/>
                 </Col>
-                <Col xs={9}>Data</Col>
+                <Col xs={9} >
+                    <DatasetList/>
+                </Col>
             </Row>
         </Container>
     );
