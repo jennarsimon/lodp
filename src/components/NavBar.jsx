@@ -1,26 +1,30 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import '../index.css';
-import logo from '../assets/images/Logo.png';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+import logo from '../assets/images/Logo.png'
 
-export class NavBar extends React.Component {
+export default class NavBar extends React.Component {
 
     render() {
 
         return (
             <div id="nav">
-                <Navbar className='navbar'>
-                <Navbar.Brand href="/">
-                    <img alt='LOPD' src={logo} />
-                </Navbar.Brand>
-                <Navbar.Collapse>
-                    <Nav>
-                    <Nav.Link id="link" className="brown-text" href="/aboutus">About Us</Nav.Link>
-                    <Nav.Link id="link" className="brown-text" href="/contribute">Contribute a Dataset</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-                </Navbar>
+                <div className='navbar'>
+                <div>
+                    <a href="/">
+                        <img alt='LOPD' src={logo} />
+                    </a>
+                </div>
+                <ul>
+                    <li id="link"><a className="brown-text" href="/aboutus">About Us</a></li>
+                    <li id="link"><a className="brown-text" href="/contribute">Contribute a Dataset</a></li>
+                    <li>
+                    <NavDropdown id="link" className="brown-text" title="Related Links ▼">
+                            <NavDropdown.Item id="dropdown" className="brown-text" href="https://opendatacampus.com/" target="_blank">Open Data Handbook</NavDropdown.Item>
+                    </NavDropdown>
+                    </li>
+                </ul>
+                </div>
                 {/* <div className='line dark-brown'></div> */}
             </div>
         );

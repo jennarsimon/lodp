@@ -55,13 +55,29 @@ Nav {
   padding: 10px;
 }
 
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .nav-link {
   text-decoration: none;
   font-size: 20px;
 }
 
 #link {
-  padding-right: 15px;
+  padding-right: 50px;
   padding-left: 20px;
 }
 
@@ -71,6 +87,21 @@ Nav {
 
 .line {
   height: 0.5px;
+}
+
+#nav ul * {
+  color: rgb(99, 52, 2);
+  font-size: 20px;
+}
+
+#dropdown {
+  position: relative;
+  background-color: white;
+  border: 2px solid rgb(99, 52, 2);
+  padding: 10px;
+  margin-right: 17px;
+  top: 34px;
+  width: 250px;
 }
 
 /* FOOTER */

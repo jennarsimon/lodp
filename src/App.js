@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './index.css';
 
-import { NavBar } from './components/NavBar.jsx';
+import NavBar from './components/NavBar.jsx';
 import { HomePage } from './components/HomePage.jsx';
 import { DatasetInfo } from './components/DatasetInfo.jsx';
 import { AddDataset } from './components/AddDataset.jsx';
