@@ -1,0 +1,1071 @@
+﻿{
+    "Display Name": "Lehigh Princeton Review Placements",
+    "Description": "All of the Princeton Review lists on which Lehigh has placed from 1992 - 2021",
+    "Date": "09/16/21",
+    "Dataset Source": "The Princeton Review",
+    "Category": "Academics",
+    "Data": {
+        "1": {
+            "Published List Name": "Best Science Lab Facilities",
+            "Standardized (current name)": "Best Science Lab Facilities",
+            "Year": "2021",
+            "Rank": "7"
+        },
+        "2": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2021",
+            "Rank": "15"
+        },
+        "3": {
+            "Published List Name": "Lots of Greek Life",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2021",
+            "Rank": "11"
+        },
+        "4": {
+            "Published List Name": "Most Beautiful Campus",
+            "Standardized (current name)": "Most Beautiful Campus",
+            "Year": "2021",
+            "Rank": "8"
+        },
+        "5": {
+            "Published List Name": "Students Study the Most",
+            "Standardized (current name)": "Students Study the Most",
+            "Year": "2021",
+            "Rank": "20"
+        },
+        "6": {
+            "Published List Name": "Their Students Love These Colleges",
+            "Standardized (current name)": "Their Students Love These Colleges",
+            "Year": "2021",
+            "Rank": "9"
+        },
+        "7": {
+            "Published List Name": "Town-Gown Relations Are Strained",
+            "Standardized (current name)": "Town-Gown Relations Are Strained",
+            "Year": "2021",
+            "Rank": "13"
+        },
+        "8": {
+            "Published List Name": "Best College Library",
+            "Standardized (current name)": "Best College Library",
+            "Year": "2020",
+            "Rank": "10"
+        },
+        "9": {
+            "Published List Name": "Best Science Lab Facilities",
+            "Standardized (current name)": "Best Science Lab Facilities",
+            "Year": "2020",
+            "Rank": "1"
+        },
+        "10": {
+            "Published List Name": "Everyone Plays Intramural Sports",
+            "Standardized (current name)": "Everyone Plays Intramural Sports",
+            "Year": "2020",
+            "Rank": "20"
+        },
+        "11": {
+            "Published List Name": "Great Financial Aid",
+            "Standardized (current name)": "Great Financial Aid",
+            "Year": "2020",
+            "Rank": "16"
+        },
+        "12": {
+            "Published List Name": "Lots of Greek Life",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2020",
+            "Rank": "10"
+        },
+        "13": {
+            "Published List Name": "Most Beautiful Campus",
+            "Standardized (current name)": "Most Beautiful Campus",
+            "Year": "2020",
+            "Rank": "12"
+        },
+        "14": {
+            "Published List Name": "Students Study the Most",
+            "Standardized (current name)": "Students Study the Most",
+            "Year": "2020",
+            "Rank": "13"
+        },
+        "15": {
+            "Published List Name": "Their Students Love These Colleges",
+            "Standardized (current name)": "Their Students Love These Colleges",
+            "Year": "2020",
+            "Rank": "7"
+        },
+        "16": {
+            "Published List Name": "Town-Gown Relations are Strained ",
+            "Standardized (current name)": "Town-Gown Relations are Strained ",
+            "Year": "2020",
+            "Rank": "14"
+        },
+        "17": {
+            "Published List Name": "Best Science Lab Facilities",
+            "Standardized (current name)": "Best Science Lab Facilities",
+            "Year": "2019",
+            "Rank": "1"
+        },
+        "18": {
+            "Published List Name": "College City Gets Low Marks",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2019",
+            "Rank": "15"
+        },
+        "19": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2019",
+            "Rank": "16"
+        },
+        "20": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2019",
+            "Rank": "1"
+        },
+        "21": {
+            "Published List Name": "Lots of Greek Life",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2019",
+            "Rank": "14"
+        },
+        "22": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2019",
+            "Rank": "6"
+        },
+        "23": {
+            "Published List Name": "Town-Gown Relations Are Strained",
+            "Standardized (current name)": "Town-Gown Relations Are Strained",
+            "Year": "2019",
+            "Rank": "5"
+        },
+        "24": {
+            "Published List Name": "Best Science Lab Facilities",
+            "Standardized (current name)": "Best Science Lab Facilities",
+            "Year": "2018",
+            "Rank": "4"
+        },
+        "25": {
+            "Published List Name": "LGBTQ-Unfriendly",
+            "Standardized (current name)": "LGBTQ-Unfriendly",
+            "Year": "2018",
+            "Rank": "14"
+        },
+        "26": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2018",
+            "Rank": "4"
+        },
+        "27": {
+            "Published List Name": "Lots of Greek Life",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2018",
+            "Rank": "3"
+        },
+        "28": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2018",
+            "Rank": "9"
+        },
+        "29": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2018",
+            "Rank": "12"
+        },
+        "30": {
+            "Published List Name": "Best Science Lab Facilities",
+            "Standardized (current name)": "Best Science Lab Facilities",
+            "Year": "2017",
+            "Rank": "8"
+        },
+        "31": {
+            "Published List Name": "LGBTQ-Unfriendly",
+            "Standardized (current name)": "LGBTQ-Unfriendly",
+            "Year": "2017",
+            "Rank": "16"
+        },
+        "32": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2017",
+            "Rank": "5"
+        },
+        "33": {
+            "Published List Name": "Lots of Greek Life",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2017",
+            "Rank": "7"
+        },
+        "34": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2017",
+            "Rank": "4"
+        },
+        "35": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2017",
+            "Rank": "5"
+        },
+        "36": {
+            "Published List Name": "Best Science Lab Facilities",
+            "Standardized (current name)": "Best Science Lab Facilities",
+            "Year": "2016",
+            "Rank": "9"
+        },
+        "37": {
+            "Published List Name": "LGBTQ-Unfriendly",
+            "Standardized (current name)": "LGBTQ-Unfriendly",
+            "Year": "2016",
+            "Rank": "11"
+        },
+        "38": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2016",
+            "Rank": "3"
+        },
+        "39": {
+            "Published List Name": "Lots of Greek Life",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2016",
+            "Rank": "9"
+        },
+        "40": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2016",
+            "Rank": "11"
+        },
+        "41": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2016",
+            "Rank": "3"
+        },
+        "42": {
+            "Published List Name": "BEST COLLEGE LIBRARY",
+            "Standardized (current name)": "Best College Library",
+            "Year": "2015",
+            "Rank": "20"
+        },
+        "43": {
+            "Published List Name": "BEST SCIENCE LAB FACILITIES",
+            "Standardized (current name)": "Best Science Lab Facilities",
+            "Year": "2015",
+            "Rank": "14"
+        },
+        "44": {
+            "Published List Name": "LITTLE RACE/CLASS INTERACTION",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2015",
+            "Rank": "10"
+        },
+        "45": {
+            "Published List Name": "LOTS OF BEER",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2015",
+            "Rank": "7"
+        },
+        "46": {
+            "Published List Name": "LOTS OF GREEK LIFE",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2015",
+            "Rank": "10"
+        },
+        "47": {
+            "Published List Name": "LOTS OF HARD LIQUOR",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2015",
+            "Rank": "16"
+        },
+        "48": {
+            "Published List Name": "PARTY SCHOOLS",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2015",
+            "Rank": "6"
+        },
+        "49": {
+            "Published List Name": "TOWN-GOWN RELATIONS ARE STRAINED",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2015",
+            "Rank": "3"
+        },
+        "50": {
+            "Published List Name": "COLLEGE CITY GETS LOW MARKS",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2014",
+            "Rank": "17"
+        },
+        "51": {
+            "Published List Name": "LITTLE RACE/CLASS INTERACTION",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2014",
+            "Rank": "9"
+        },
+        "52": {
+            "Published List Name": "LOTS OF BEER",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2014",
+            "Rank": "10"
+        },
+        "53": {
+            "Published List Name": "LOTS OF GREEK LIFE",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2014",
+            "Rank": "10"
+        },
+        "54": {
+            "Published List Name": "LOTS OF HARD LIQUOR",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2014",
+            "Rank": "13"
+        },
+        "55": {
+            "Published List Name": "PARTY SCHOOLS",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2014",
+            "Rank": "10"
+        },
+        "56": {
+            "Published List Name": "TOWN-GOWN RELATIONS ARE STRAINED",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2014",
+            "Rank": "2"
+        },
+        "57": {
+            "Published List Name": "COLLEGE TOWN NOT SO GREAT",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2013",
+            "Rank": "17"
+        },
+        "58": {
+            "Published List Name": "TOWN-GOWN RELATIONS ARE STRAINED",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2013",
+            "Rank": "3"
+        },
+        "59": {
+            "Published List Name": "COLLEGE TOWN NOT SO GREAT",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2012",
+            "Rank": "15"
+        },
+        "60": {
+            "Published List Name": "ELECTION? WHAT ELECTION?",
+            "Standardized (current name)": "Election? What Election? ",
+            "Year": "2012",
+            "Rank": "14"
+        },
+        "61": {
+            "Published List Name": "LITTLE RACE/CLASS INTERACTION",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2012",
+            "Rank": "10"
+        },
+        "62": {
+            "Published List Name": "LOTS OF BEER",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2012",
+            "Rank": "16"
+        },
+        "63": {
+            "Published List Name": "MAJOR FRAT AND SORORITY SCENE",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2012",
+            "Rank": "7"
+        },
+        "64": {
+            "Published List Name": "TOWN-GOWN RELATIONS ARE STRAINED",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2012",
+            "Rank": "2"
+        },
+        "65": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2011",
+            "Rank": "12"
+        },
+        "66": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2011",
+            "Rank": "16"
+        },
+        "67": {
+            "Published List Name": "Major Frat and Sorority Scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2011",
+            "Rank": "6"
+        },
+        "68": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2011",
+            "Rank": "2"
+        },
+        "69": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2010",
+            "Rank": "13"
+        },
+        "70": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2010",
+            "Rank": "11"
+        },
+        "71": {
+            "Published List Name": "Major Frat and Sorority Scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2010",
+            "Rank": "7"
+        },
+        "72": {
+            "Published List Name": "Lots of Hard Liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2010",
+            "Rank": "14"
+        },
+        "73": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2010",
+            "Rank": "3"
+        },
+        "74": {
+            "Published List Name": "Homogeneous Student Population",
+            "Standardized (current name)": "Homogeneous Student Population",
+            "Year": "2009",
+            "Rank": "18"
+        },
+        "75": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2009",
+            "Rank": "12"
+        },
+        "76": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2009",
+            "Rank": "20"
+        },
+        "77": {
+            "Published List Name": "Major Frat and Sorority Scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2009",
+            "Rank": "9"
+        },
+        "78": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2009",
+            "Rank": "3"
+        },
+        "79": {
+            "Published List Name": "More to Do on Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2008",
+            "Rank": "10"
+        },
+        "80": {
+            "Published List Name": "Homogeneous Student Population",
+            "Standardized (current name)": "Homogeneous Student Population",
+            "Year": "2008",
+            "Rank": "13"
+        },
+        "81": {
+            "Published List Name": "More to Do on Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2007",
+            "Rank": "9"
+        },
+        "82": {
+            "Published List Name": "Homogeneous Student Population",
+            "Standardized (current name)": "Homogeneous Student Population",
+            "Year": "2007",
+            "Rank": "17"
+        },
+        "83": {
+            "Published List Name": "Lots of Hard Liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2007",
+            "Rank": "19"
+        },
+        "84": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2007",
+            "Rank": "17"
+        },
+        "85": {
+            "Published List Name": "Reefer Madness",
+            "Standardized (current name)": "Reefer Madness",
+            "Year": "2007",
+            "Rank": "10"
+        },
+        "86": {
+            "Published List Name": "More to Do on Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2006",
+            "Rank": "6"
+        },
+        "87": {
+            "Published List Name": "Homogeneous Student population",
+            "Standardized (current name)": "Homogeneous Student Population",
+            "Year": "2006",
+            "Rank": "15"
+        },
+        "88": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2006",
+            "Rank": "6"
+        },
+        "89": {
+            "Published List Name": "Major Frat and Sorority Scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2006",
+            "Rank": "16"
+        },
+        "90": {
+            "Published List Name": "Lots of Hard Liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2006",
+            "Rank": "12"
+        },
+        "91": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2006",
+            "Rank": "3"
+        },
+        "92": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2006",
+            "Rank": "3"
+        },
+        "93": {
+            "Published List Name": "More to Do on Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2005",
+            "Rank": "9"
+        },
+        "94": {
+            "Published List Name": "Homogeneous Student population",
+            "Standardized (current name)": "Homogeneous Student Population",
+            "Year": "2005",
+            "Rank": "20"
+        },
+        "95": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2005",
+            "Rank": "12"
+        },
+        "96": {
+            "Published List Name": "Lots of Hard Liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2005",
+            "Rank": "20"
+        },
+        "97": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2005",
+            "Rank": "3"
+        },
+        "98": {
+            "Published List Name": "More to Do on Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2004",
+            "Rank": "16"
+        },
+        "99": {
+            "Published List Name": "Election? What Election? ",
+            "Standardized (current name)": "Election? What Election? ",
+            "Year": "2004",
+            "Rank": "13"
+        },
+        "100": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2004",
+            "Rank": "18"
+        },
+        "101": {
+            "Published List Name": "Lots of Hard Liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2004",
+            "Rank": "16"
+        },
+        "102": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2004",
+            "Rank": "4"
+        },
+        "103": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2004",
+            "Rank": "4"
+        },
+        "104": {
+            "Published List Name": "Best Academic Bang for Your Buck",
+            "Standardized (current name)": "Best Academic Bang for Your Buck",
+            "Year": "2003",
+            "Rank": "3"
+        },
+        "105": {
+            "Published List Name": "Election? What Election?",
+            "Standardized (current name)": "Election? What Election? ",
+            "Year": "2003",
+            "Rank": "13"
+        },
+        "106": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2003",
+            "Rank": "19"
+        },
+        "107": {
+            "Published List Name": "Reefer Madness",
+            "Standardized (current name)": "Reefer Madness",
+            "Year": "2003",
+            "Rank": "13"
+        },
+        "108": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2003",
+            "Rank": "2"
+        },
+        "109": {
+            "Published List Name": "Election? What Election?",
+            "Standardized (current name)": "Election? What Election? ",
+            "Year": "2002",
+            "Rank": "6"
+        },
+        "110": {
+            "Published List Name": "Homogeneous student body",
+            "Standardized (current name)": "Homogeneous Student Population",
+            "Year": "2002",
+            "Rank": "16"
+        },
+        "111": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2002",
+            "Rank": "15"
+        },
+        "112": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2002",
+            "Rank": "3"
+        },
+        "113": {
+            "Published List Name": "Students Most Nostalgic for Ronald Reagan",
+            "Standardized (current name)": "Most Conservative Students",
+            "Year": "2002",
+            "Rank": "4"
+        },
+        "114": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2002",
+            "Rank": "15"
+        },
+        "115": {
+            "Published List Name": "Reefer Madness",
+            "Standardized (current name)": "Reefer Madness",
+            "Year": "2002",
+            "Rank": "9"
+        },
+        "116": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2002",
+            "Rank": "14"
+        },
+        "117": {
+            "Published List Name": "Election? What Election?",
+            "Standardized (current name)": "Election? What Election? ",
+            "Year": "2001",
+            "Rank": "12"
+        },
+        "118": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2001",
+            "Rank": "16"
+        },
+        "119": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2001",
+            "Rank": "8"
+        },
+        "120": {
+            "Published List Name": "Major Frat and Sorority Scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2001",
+            "Rank": "15"
+        },
+        "121": {
+            "Published List Name": "Lots of Hard Liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2001",
+            "Rank": "5"
+        },
+        "122": {
+            "Published List Name": "Beautiful Campus",
+            "Standardized (current name)": "Most Beautiful Campus",
+            "Year": "2001",
+            "Rank": "14"
+        },
+        "123": {
+            "Published List Name": "Students Most Nostalgic for Reagan",
+            "Standardized (current name)": "Most Conservative Students",
+            "Year": "2001",
+            "Rank": "9"
+        },
+        "124": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2001",
+            "Rank": "16"
+        },
+        "125": {
+            "Published List Name": "Reefer Madness",
+            "Standardized (current name)": "Reefer Madness",
+            "Year": "2001",
+            "Rank": "4"
+        },
+        "126": {
+            "Published List Name": "More to Do On Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "2000",
+            "Rank": "9"
+        },
+        "127": {
+            "Published List Name": "Little Race/Class Interaction",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "2000",
+            "Rank": "10"
+        },
+        "128": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "2000",
+            "Rank": "1"
+        },
+        "129": {
+            "Published List Name": "Major Frat and Sorority Scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "2000",
+            "Rank": "6"
+        },
+        "130": {
+            "Published List Name": "Lots of Hard Liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "2000",
+            "Rank": "5"
+        },
+        "131": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "2000",
+            "Rank": "15"
+        },
+        "132": {
+            "Published List Name": "Town-Gown Relations are Strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "2000",
+            "Rank": "5"
+        },
+        "133": {
+            "Published List Name": "Great libraries",
+            "Standardized (current name)": "Best College Library",
+            "Year": "1999",
+            "Rank": "17"
+        },
+        "134": {
+            "Published List Name": "More to do on campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "1999",
+            "Rank": "8"
+        },
+        "135": {
+            "Published List Name": "Jock schools",
+            "Standardized (current name)": "JOCK SCHOOLS",
+            "Year": "1999",
+            "Rank": "18"
+        },
+        "136": {
+            "Published List Name": "Race/class relations strained",
+            "Standardized (current name)": "Little Race/Class Interaction",
+            "Year": "1999",
+            "Rank": "19"
+        },
+        "137": {
+            "Published List Name": "Lots of beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "1999",
+            "Rank": "1"
+        },
+        "138": {
+            "Published List Name": "Major frat and sorority scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "1999",
+            "Rank": "7"
+        },
+        "139": {
+            "Published List Name": "Lots of hard liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "1999",
+            "Rank": "9"
+        },
+        "140": {
+            "Published List Name": "Town-gown relations are strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "1999",
+            "Rank": "7"
+        },
+        "141": {
+            "Published List Name": "Great libraries",
+            "Standardized (current name)": "Best College Library",
+            "Year": "1998",
+            "Rank": "11"
+        },
+        "142": {
+            "Published List Name": "More to do on-campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "1998",
+            "Rank": "10"
+        },
+        "143": {
+            "Published List Name": "Jock schools",
+            "Standardized (current name)": "JOCK SCHOOLS",
+            "Year": "1998",
+            "Rank": "18"
+        },
+        "144": {
+            "Published List Name": "Lots of beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "1998",
+            "Rank": "1"
+        },
+        "145": {
+            "Published List Name": "Major frat and sorority scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "1998",
+            "Rank": "7"
+        },
+        "146": {
+            "Published List Name": "Lots of hard liquor",
+            "Standardized (current name)": "Lots of Hard Liquor",
+            "Year": "1998",
+            "Rank": "10"
+        },
+        "147": {
+            "Published List Name": "Town-gown relations are strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "1998",
+            "Rank": "7"
+        },
+        "148": {
+            "Published List Name": "Great libraries",
+            "Standardized (current name)": "Best College Library",
+            "Year": "1997",
+            "Rank": "20"
+        },
+        "149": {
+            "Published List Name": "Students happy with financial aid",
+            "Standardized (current name)": "Great Financial Aid",
+            "Year": "1997",
+            "Rank": "7"
+        },
+        "150": {
+            "Published List Name": "Lots of beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "1997",
+            "Rank": "6"
+        },
+        "151": {
+            "Published List Name": "Major frat and sorority scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "1997",
+            "Rank": "3"
+        },
+        "152": {
+            "Published List Name": "Town-gown relations are strained",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "1997",
+            "Rank": "4"
+        },
+        "153": {
+            "Published List Name": "Great Libraries",
+            "Standardized (current name)": "Best College Library",
+            "Year": "1996",
+            "Rank": "18"
+        },
+        "154": {
+            "Published List Name": "Trapped on campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "1996",
+            "Rank": "10"
+        },
+        "155": {
+            "Published List Name": "Jock schools",
+            "Standardized (current name)": "JOCK SCHOOLS",
+            "Year": "1996",
+            "Rank": "13"
+        },
+        "156": {
+            "Published List Name": "Gay Students Ostracized, Discriminated Against",
+            "Standardized (current name)": "LGBTQ-Unfriendly",
+            "Year": "1996",
+            "Rank": "20"
+        },
+        "157": {
+            "Published List Name": "Major frat and sorority scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "1996",
+            "Rank": "2"
+        },
+        "158": {
+            "Published List Name": "Town gown relations are bad",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "1996",
+            "Rank": "5"
+        },
+        "159": {
+            "Published List Name": "Great Libraries",
+            "Standardized (current name)": "Best College Library",
+            "Year": "1995",
+            "Rank": "11"
+        },
+        "160": {
+            "Published List Name": "Trapped on Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "1995",
+            "Rank": "5"
+        },
+        "161": {
+            "Published List Name": "Jock Schools",
+            "Standardized (current name)": "JOCK SCHOOLS",
+            "Year": "1995",
+            "Rank": "13"
+        },
+        "162": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "1995",
+            "Rank": "3"
+        },
+        "163": {
+            "Published List Name": "Major Frat and Sorority Scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "1995",
+            "Rank": "3"
+        },
+        "164": {
+            "Published List Name": "Town-Gown Relations are Bad",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "1995",
+            "Rank": "5"
+        },
+        "165": {
+            "Published List Name": "Great Libraries",
+            "Standardized (current name)": "Best College Library",
+            "Year": "1994",
+            "Rank": "9"
+        },
+        "166": {
+            "Published List Name": "Trapped on Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "1994",
+            "Rank": "8"
+        },
+        "167": {
+            "Published List Name": "Jock Schools",
+            "Standardized (current name)": "JOCK SCHOOLS",
+            "Year": "1994",
+            "Rank": "13"
+        },
+        "168": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "1994",
+            "Rank": "5"
+        },
+        "169": {
+            "Published List Name": "Major Frat and Sorority Scene",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "1994",
+            "Rank": "3"
+        },
+        "170": {
+            "Published List Name": "Town-Gown Relations Are Bad",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "1994",
+            "Rank": "4"
+        },
+        "171": {
+            "Published List Name": "Great Libraries",
+            "Standardized (current name)": "Best College Library",
+            "Year": "1992",
+            "Rank": "8"
+        },
+        "172": {
+            "Published List Name": "Trapped on Campus",
+            "Standardized (current name)": "College City Gets Low Marks",
+            "Year": "1992",
+            "Rank": "6"
+        },
+        "173": {
+            "Published List Name": "Lots of Beer",
+            "Standardized (current name)": "Lots of Beer",
+            "Year": "1992",
+            "Rank": "7"
+        },
+        "174": {
+            "Published List Name": "Go Greek",
+            "Standardized (current name)": "Lots of Greek Life",
+            "Year": "1992",
+            "Rank": "3"
+        },
+        "175": {
+            "Published List Name": "Lots of Sex",
+            "Standardized (current name)": "Lots of Sex",
+            "Year": "1992",
+            "Rank": "19"
+        },
+        "176": {
+            "Published List Name": "Party Schools",
+            "Standardized (current name)": "Party Schools",
+            "Year": "1992",
+            "Rank": "20"
+        },
+        "177": {
+            "Published List Name": "Town-Gown Relations Are Bad",
+            "Standardized (current name)": "Town-Gown Relations are Strained",
+            "Year": "1992",
+            "Rank": "7"
+        }
+    }
+}
