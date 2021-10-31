@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './index.css';
 
-import { NavBar } from './components/NavBar.jsx';
+import NavBar from './components/NavBar.jsx';
 import { HomePage } from './components/HomePage.jsx';
 import { DatasetInfo } from './components/DatasetInfo.jsx';
 import { AddDataset } from './components/AddDataset.jsx';
 import { AboutUs } from './components/AboutUs.jsx';
 import { Footer } from './components/Footer.jsx';
 import { NotFound } from './components/NotFound.jsx';
+import banner from './assets/images/banner.jpg';
 
 class App extends Component {
 
@@ -37,7 +38,7 @@ class App extends Component {
     return (
       <div className="wrapper">
         {urlDirect === '/' && 
-        <img className='banner_img' alt='LODP Banner' src={process.env.PUBLIC_URL + '/banner.jpg'} />}
+        <img className='banner_img' alt='LODP Banner' src={banner} />}
         <div className="container">
           <NavBar />
           <div className="content">
