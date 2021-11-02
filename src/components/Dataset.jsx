@@ -23,6 +23,22 @@ function DatasetCard(){
     );
 }
 
+// const DatasetCard = data.map ((dataset) =>{
+//         return(
+//             <Card style={{border:0}}>
+//                 <Card.Body>
+//                     <Card.Title>{dataset.name}</Card.Title>
+//                     <Card.Text>{dataset.description}</Card.Text>
+//                     <Card.Subtitle className="mb-2 text-muted">
+//                         Category: <Badge bg="dark">{dataset.category}</Badge>{' '} |
+//                         Filetype: <Badge bg="secondary">{dataset.filetype}</Badge>
+//                     </Card.Subtitle>
+//                 </Card.Body>
+//             </Card>
+//         );
+//     }
+// )
+
 //Temporary Formatter
 function DatasetList(){
     return(

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import {    
     Container, 
     Row,
@@ -9,14 +10,24 @@ import {
 import DatasetList from './Dataset';
 import "../styles/Search.css";
 
-export class SearchBar extends React.Component {
-    render() {
-        return (
-            <form>
-                <input type="text" id="search-bar" placeholder="Search by dataset or category..."/>
-            </form>
-        );
-    }
+// export class SearchBar extends React.Component {
+//     render() {
+//         return (
+//             <form>
+//                 <input type="text" id="search-bar" placeholder="Search by dataset or category..." />
+//             </form>
+//         );
+//     }
+// }
+
+function SearchBar() {
+    const [searchTerm,setSearchTerm] = useState('');
+
+    return (
+        <form>
+            <input type="text" id="search-bar" placeholder="Search by dataset or category..." onChange={e=>setSearchTerm(e.target.value)}/>
+        </form>
+    );
 }
 
 function SearchFilter(){
