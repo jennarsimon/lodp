@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "title": "COVID-19 Cases",
+        "desc": "This is a dataset from a json file",
+        "category": "cat1",
+        "filetype": "csv",
+        "date": "2020-04-01",
+        "url": "empty"
+
+    },
+    {
+        "id":2,
+        "title": "Nov. 2nd 2021 Election Results",
+        "desc": "This is a dataset from a json file",
+        "category": "cat1",
+        "filetype": "csv",
+        "date": "2021-11-02",
+        "url": "empty"
+    },
+    {
+        "id":3,
+        "title": "How many words rhyme with \"cat\"?",
+        "desc": "This is a dataset from a json file",
+        "category": "cat2",
+        "filetype": "csv",
+        "date": "2021-08-16",
+        "url": "empty"
+    }
+]
