@@ -1,15 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-
-const Dataset = props => (
-    <tr>
-        <td>{props.dataset.name}</td>
-        <td>{props.dataset.description}</td>
-        <td>{props.dataset.date}</td>
-        <td>{props.dataset.source}</td>
-        <td>{props.dataset.category}</td>
-    </tr>
-)
+import Dataset from './Dataset.jsx';
 
 export default class DatasetList extends Component {
 
@@ -29,15 +20,15 @@ export default class DatasetList extends Component {
 
     datasetList() {
         return this.state.datasets.map(currentdataset => {
-            return <Dataset dataset={currentdataset} key={currentdataset.name} />;
+            return <Dataset dataset={currentdataset} />;
         })
     }
 
     render() {
         return (
             <div>
-                <h1>Datasets</h1>
-                <table className="table">
+                { this.datasetList() }
+                {/* <table className="table">
                     <thead className="thead-light">
                         <tr>
                             <th>Dataset Name</th>
@@ -48,9 +39,9 @@ export default class DatasetList extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        { this.datasetList() }
+                        
                     </tbody>
-                </table>
+                </table> */}
             </div>
         )
     }
