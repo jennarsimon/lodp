@@ -36,9 +36,12 @@ function SearchFilter(){
             <Accordion.Item eventKey="0">
                 <Accordion.Header>Categories</Accordion.Header>
                 <Accordion.Body>
-                    <Form.Check type='checkbox' id={`Cat1`} label={`Category 1`} />
-                    <Form.Check type='checkbox' id={`Cat2`} label={`Category 2`} />
-                    <Form.Check type='checkbox' id={`Cat3`} label={`Category 3`} />
+                {/*they were not aligned because they were inheriting padding from .content *. 
+                I used the classes given by default and removed the padding. 
+                Some more styling may be desired. The styling is from Search.css*/}
+                    <Form.Check type='checkbox' id={`Cat1`} label={`Category 1`}/> 
+                    <Form.Check type='checkbox' id={`Cat2`} label={`Category 2`}/>
+                    <Form.Check type='checkbox' id={`Cat3`} label={`Category 3`}/>
                     {/* <form>
                         <label>
                             <input type="checkbox"/> 
