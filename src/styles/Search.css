@@ -15,7 +15,12 @@
     background-repeat: no-repeat;
     padding: 12px 20px 12px 60px;
 }
-      
 
+.form-check .form-check-input{/* for checkboxes' box. */
+    padding: 0px !important;
+  }
+.form-check .form-check-label{/* for checkboxes' label */
+    padding: 0px !important;
+  }
 
 
