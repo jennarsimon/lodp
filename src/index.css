@@ -187,6 +187,7 @@ ul {
 #appliedFilters {
   display: flex;
   margin-left: 16px;
+  margin-top: 16px;
 }
 
 #filters ul {
@@ -195,10 +196,9 @@ ul {
 }
 
 #filters ul li {
-  margin-left: 10px;
   align-items: top;
   font-size: 14px;
-  padding: 5px 15px;
+  padding: 5px 0px 5px 15px;
   border-radius: 10px;
 }
 
@@ -262,8 +262,12 @@ ul {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: 1fr;
-  padding: 5px 5px 5px 15px;
+  padding: 3px 3px 3px 10px;
   border-radius: 10px;
+}
+
+.filterName span {
+  vertical-align: middle;
 }
 
 #delete {
@@ -361,20 +365,10 @@ span.badge.bg-secondary {
 }
 
 #directory h2 {
-  font-size: 24px;
-  margin-bottom: 5px;
-}
-#directory h3 {
   font-size: 18px;
   margin-bottom: 5px;
 }
-/* #directoryDiv div div{
-  display: inline-block;
+#directory h3 {
+  font-size: 14px;
+  margin-bottom: 5px;
 }
-#directoryDiv div div div{
-  display: block;
-}
-#directoryDiv img{
-  height: 300px;
-  width: 300px;
-} */

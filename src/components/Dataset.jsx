@@ -12,7 +12,7 @@ export default class Dataset extends Component {
                     <Card.Text>{this.props.dataset.description}</Card.Text>
                     <Card.Subtitle className="mb-2 text-muted">
                         Category: <Badge bg="dark">{this.props.dataset.category}</Badge> |
-                        Date: <Badge bg="dark">{this.props.dataset.date.substring(0, 10)}</Badge>
+                        Updated: <Badge bg="dark">{this.props.dataset.date.substring(0, 10)}</Badge>
                     </Card.Subtitle>
                 </Card.Body>
             </Card>
