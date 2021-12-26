@@ -251,35 +251,52 @@ span.badge.bg-secondary {
 }
 
 /* ABOUT */
-#aboutDiv{
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+
+#aboutDiv {
+  width: 1000px;
+  margin: 0 auto;
+}
+#description {
+  padding: 16px;
 }
 #aboutUsTitle{
   text-align: left;
   color: rgb(99, 52, 2);
+  margin: 16px;
 }
-#directoryTitle{
-  text-align: center;
-  color: rgb(99, 52, 2);
+#aboutText {
+  margin: 16px;
 }
-#aboutDiv h2{
+#meetTeam {
+  margin: 32px;
   text-align: center;
-  font-size: 1rem;
 }
-#directoryDiv{
-  text-align: center;
-  flex-direction: row;
-  display:  flex;
-  flex-wrap: wrap;
+#directory {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+#directory * {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-
 }
-#directoryDiv div div{
+#directory img {
+  width: 220px;
+  height: auto;
+  text-align: center;
+  margin: 15px 0 5px 0;
+}
+
+#directory h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+#directory h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+/* #directoryDiv div div{
   display: inline-block;
 }
 #directoryDiv div div div{
@@ -288,4 +305,4 @@ span.badge.bg-secondary {
 #directoryDiv img{
   height: 300px;
   width: 300px;
-}
+} */
