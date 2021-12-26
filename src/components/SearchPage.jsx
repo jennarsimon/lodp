@@ -8,6 +8,7 @@ import {
     Button
 } from 'react-bootstrap';
 import DatasetList from './DatasetList.jsx';
+import x from '../assets/images/x.png';
 import "../index.css";
 
 export default class SearchPage extends React.Component {
@@ -21,6 +22,7 @@ export default class SearchPage extends React.Component {
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleFilter = this.handleFilter.bind(this);
         this.clearSearch = this.clearSearch.bind(this);
+        this.clearFilter = this.clearFilter.bind(this);
     }
 
     handleSubmit(event) {
@@ -46,7 +48,21 @@ export default class SearchPage extends React.Component {
 
     clearSearch(event) {
         event.preventDefault();
+        document.getElementById('search-bar').value = '';
         this.setState({ search: '' });
+    }
+
+    clearFilter(event) {
+        event.preventDefault();
+        const id = event.target.parentNode.id;
+        const newFilter = this.state.filter.flatMap(filter => {
+            return filter === id ? [] : filter;
+        })
+        // const form = new FormData(document.getElementById("checkForm"));
+        if (document.getElementById(id).checked) {
+            document.getElementById(id).checked = false;
+        }
+        this.setState({ filter: newFilter });
     }
 
     render() {
@@ -67,7 +83,7 @@ export default class SearchPage extends React.Component {
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header>Categories</Accordion.Header>
                                 <Accordion.Body>
-                                    <Form onSubmit={this.handleFilter}>
+                                    <Form id="checkForm" onSubmit={this.handleFilter}>
                                         <Form.Check type='checkbox' name="academics" id={`academics`} label={`Academics`}/> 
                                         <Form.Check type='checkbox' name="admissions" id={`admissions`} label={`Admissions`}/>
                                         <Form.Check type='checkbox' name="athletics" id={`athletics`} label={`Athletics`}/>
@@ -85,9 +101,26 @@ export default class SearchPage extends React.Component {
                     <Col xs={9}>
                         { this.state.search !== '' &&
                             <div id="searchResults">
-                                <h4 id="searchDescription" className="brown-text">Search results for {this.state.search}</h4>
-                                <div id="clear" className="dark-brown" onClick={this.clearSearch}>
+                                <h4 id="searchDescription" className="brown-text">Showing results for search: {this.state.search}</h4>
+                                <div id="clear" className="pale-brown brown-text" onClick={this.clearSearch}>
                                     <h4>Clear Search</h4>
+                                </div>
+                            </div>
+                        }
+                        { this.state.filter.length !== 0 &&
+                            <div id="appliedFilters">
+                                <h4 className="brown-text">Applied Filters: </h4>
+                                <div id="filters">
+                                    <ul>
+                                        { this.state.filter.map(f => 
+                                            <li className="brown-text">
+                                                <div className="filterName pale-brown" id={f}>
+                                                    <span>{f}</span>
+                                                    <img id="delete" alt="delete" src={x} onClick={this.clearFilter} />
+                                                </div>
+                                            </li>) 
+                                        }
+                                    </ul>
                                 </div>
                             </div>
                         }

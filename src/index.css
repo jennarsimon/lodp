@@ -175,7 +175,6 @@ ul {
 
 #searchResults {
   display: flex;
-  margin-bottom: 32px;
 }
 #searchDescription {
   font-size: 16px;
@@ -185,21 +184,46 @@ ul {
   align-items: center;
 }
 
-#clear h4 {
-  color: white;
+#appliedFilters {
+  display: flex;
+  margin-left: 16px;
+}
+
+#filters ul {
+  display: flex;
+  list-style-type: none;
+}
+
+#filters ul li {
+  margin-left: 10px;
+  align-items: top;
+  font-size: 14px;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+#appliedFilters h4 {
   font-size: 16px;
+  margin-left: 16px;
+  margin-bottom: 0;
+  margin: auto 0;
+}
+
+#clear h4 {
+  font-size: 14px;
+  font-weight: 400;
   margin: 0 !important;
 }
 
 #clear {
   padding: 5px 10px;
   margin-left: 16px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 #clear:hover {
   cursor: pointer;
-  background-color: rgb(119, 72, 32) !important;
+  background-color: #dad2ca !important;
 }
 
 .form-check .form-check-input{/* for checkboxes' box. */
@@ -232,6 +256,25 @@ ul {
 
 .filter-submit:hover {
   background-color: rgb(119, 72, 32) !important;
+}
+
+.filterName {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 1fr;
+  padding: 5px 5px 5px 15px;
+  border-radius: 10px;
+}
+
+#delete {
+  width: 21px;
+  height: auto;
+  margin-left: 10px;
+}
+
+#delete:hover {
+  cursor: pointer;
+  background-color: #dad2ca !important;
 }
 
 /* FOOTER */
