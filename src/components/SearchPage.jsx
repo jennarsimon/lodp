@@ -20,6 +20,7 @@ export default class SearchPage extends React.Component {
         }
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleFilter = this.handleFilter.bind(this);
+        this.clearSearch = this.clearSearch.bind(this);
     }
 
     handleSubmit(event) {
@@ -41,6 +42,11 @@ export default class SearchPage extends React.Component {
         }
         this.setState({ filter: newFilter });
         console.log(this.state.filter);
+    }
+
+    clearSearch(event) {
+        event.preventDefault();
+        this.setState({ search: '' });
     }
 
     render() {
@@ -77,6 +83,14 @@ export default class SearchPage extends React.Component {
                         </Accordion>
                     </Col>
                     <Col xs={9}>
+                        { this.state.search !== '' &&
+                            <div id="searchResults">
+                                <h4 id="searchDescription" className="brown-text">Search results for {this.state.search}</h4>
+                                <div id="clear" className="dark-brown" onClick={this.clearSearch}>
+                                    <h4>Clear Search</h4>
+                                </div>
+                            </div>
+                        }
                         <DatasetList search={this.state.search} filter={this.state.filter}/>
                     </Col>
                 </Row>

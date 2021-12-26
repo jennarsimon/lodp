@@ -173,6 +173,35 @@ ul {
   background-color: rgb(119, 72, 32) !important;
 }
 
+#searchResults {
+  display: flex;
+  margin-bottom: 32px;
+}
+#searchDescription {
+  font-size: 16px;
+  margin-left: 16px;
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+}
+
+#clear h4 {
+  color: white;
+  font-size: 16px;
+  margin: 0 !important;
+}
+
+#clear {
+  padding: 5px 10px;
+  margin-left: 16px;
+  border-radius: 5px;
+}
+
+#clear:hover {
+  cursor: pointer;
+  background-color: rgb(119, 72, 32) !important;
+}
+
 .form-check .form-check-input{/* for checkboxes' box. */
   padding: 0px !important;
 }
