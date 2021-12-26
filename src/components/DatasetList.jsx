@@ -19,8 +19,26 @@ export default class DatasetList extends Component {
     }
 
     datasetList() {
+        // eslint-disable-next-line
         return this.state.datasets.map(currentdataset => {
-            return <Dataset dataset={currentdataset} />;
+            if (this.props.search !== '' && this.props.filter.length !== 0) {
+                if ((currentdataset.name.toLowerCase().includes(this.props.search.toLowerCase()) || currentdataset.description.toLowerCase().includes(this.props.search.toLowerCase())) && this.props.filter.includes(currentdataset.category.toLowerCase())) {
+                    return <Dataset dataset={currentdataset} />;
+                }
+            }
+            else if (this.props.search !== '') {
+                if (currentdataset.name.toLowerCase().includes(this.props.search.toLowerCase()) || currentdataset.description.toLowerCase().includes(this.props.search.toLowerCase())) {
+                    return <Dataset dataset={currentdataset} />;
+                }
+            }
+            else if (this.props.filter.length !== 0) {
+                if (this.props.filter.includes(currentdataset.category.toLowerCase())) {
+                    return <Dataset dataset={currentdataset} />;
+                }
+            }
+            else {
+                return <Dataset dataset={currentdataset} />;
+            }
         })
     }
 
@@ -28,20 +46,6 @@ export default class DatasetList extends Component {
         return (
             <div>
                 { this.datasetList() }
-                {/* <table className="table">
-                    <thead className="thead-light">
-                        <tr>
-                            <th>Dataset Name</th>
-                            <th>Description</th>
-                            <th>Date</th>
-                            <th>Source</th>
-                            <th>Category</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        
-                    </tbody>
-                </table> */}
             </div>
         )
     }
