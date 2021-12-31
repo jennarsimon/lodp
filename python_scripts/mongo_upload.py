@@ -36,7 +36,7 @@ def post_data(data):
     client = pymongo.MongoClient(MONGO_STRING, tlsCAFile=certifi.where())
 
     db = client['lodp']
-    collection = db['lodp-datasets']
+    collection = db['datasets']
     collection.insert_one(data)
 
 
@@ -63,7 +63,7 @@ if __name__ == "__main__":
 
     with open(metadata_path, "r+", encoding='utf-8-sig') as file:
         metadata = json.load(file)
-        metadata["Data"] = full_data
+        metadata["data"] = full_data
         file.seek(0)
         json.dump(metadata, file, indent=4)
 

@@ -1,10 +1,10 @@
 ﻿{
-    "Display Name": "Lehigh Princeton Review Placements",
-    "Description": "All of the Princeton Review lists on which Lehigh has placed from 1992 - 2021",
-    "Date": "09/16/21",
-    "Dataset Source": "The Princeton Review",
-    "Category": "Academics",
-    "Data": {
+    "name": "Lehigh Princeton Review Placements 2",
+    "description": "All of the Princeton Review lists on which Lehigh has placed from 1992 - 2021",
+    "date": "09/16/21",
+    "source": "The Princeton Review",
+    "category": "Academics",
+    "data": {
         "1": {
             "Published List Name": "Best Science Lab Facilities",
             "Standardized (current name)": "Best Science Lab Facilities",
