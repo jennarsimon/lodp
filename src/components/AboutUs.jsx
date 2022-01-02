@@ -7,7 +7,7 @@ import jisoo from '../assets/images/jisoo.jpeg';
 import adrian from '../assets/images/adrian.png';
 import carl from '../assets/images/carl.jpeg';
 import abigail from '../assets/images/abigail.jpeg';
-import '../index.css';
+import '../stylesheets/aboutus.css';
 
 export default class AboutUs extends React.Component {
     render() {

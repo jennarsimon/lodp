@@ -9,7 +9,7 @@ import {
 } from 'react-bootstrap';
 import DatasetList from './DatasetList.jsx';
 import x from '../assets/images/x.png';
-import "../index.css";
+import "../stylesheets/search.css";
 
 export default class SearchPage extends React.Component {
 

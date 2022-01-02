@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Card, Badge } from 'react-bootstrap';
-import "../index.css";
 
 export default class Dataset extends Component {
 

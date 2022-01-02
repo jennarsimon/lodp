@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../assets/images/lodp.png';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import '../index.css';
+import '../stylesheets/navbar.css';
 
 export default class Navbar extends Component {
 
