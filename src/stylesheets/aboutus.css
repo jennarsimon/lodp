@@ -37,8 +37,10 @@
 #directory h2 {
     font-size: 18px;
     margin-bottom: 5px;
+    padding: 0 !important;
 }
 #directory h3 {
     font-size: 14px;
     margin-bottom: 5px;
+    padding: 0 !important;
 }
