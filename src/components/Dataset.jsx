@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Card, Badge } from 'react-bootstrap';
 import DatasetModal from "./DatasetModal.jsx";
+import moment from "moment";
 
 export default class Dataset extends Component {
 
@@ -26,7 +27,7 @@ export default class Dataset extends Component {
                         <Card.Text>{this.props.dataset.description}</Card.Text>
                         <Card.Subtitle className="mb-2 text-muted">
                             Category: <Badge bg="dark">{this.props.dataset.category}</Badge> |
-                            Updated: <Badge bg="dark">{this.props.dataset.date.substring(0, 10)}</Badge>
+                            Updated: <Badge bg="dark">{moment(this.props.dataset.date).format("YYYY-MM-DD")}</Badge>
                         </Card.Subtitle>
                     </Card.Body>
                 </Card>

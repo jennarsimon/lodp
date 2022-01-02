@@ -49,6 +49,7 @@
 
 span.badge.bg-dark {
     background-color: #633402 !important;
+    padding: 5px !important;
 }
   
 span.badge.bg-secondary {
