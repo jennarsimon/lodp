@@ -38,6 +38,15 @@
     display: flex;
 }
 
+.dataset-title {
+    display: inline-block;
+}
+
+.dataset-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 span.badge.bg-dark {
     background-color: #633402 !important;
 }
