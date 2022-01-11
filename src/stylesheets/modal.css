@@ -11,6 +11,7 @@
 }
 
 .modal-content {
+    border-radius: 0.5rem !important;
     display: grid;
     grid-template-columns: 145px 1fr 53px;
     width: 60%;
@@ -24,6 +25,7 @@
 }
 
 #title {
+    border-top-left-radius: 0.5rem !important;
     font-size: 24px;
     grid-column: 1/3;
     grid-row: 1/2;
@@ -40,6 +42,7 @@ span {
 }
 
 #close {
+    border-top-right-radius: 0.5rem !important;
     width: 53px;
     height: auto;
     padding: 19.9px 16px ;

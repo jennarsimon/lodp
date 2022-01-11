@@ -57,12 +57,19 @@ span.badge.bg-secondary {
 }
 
 /* CATEGORY FILTER BOX */
+.form-check{
+    cursor: pointer;
+}
+.form-check:hover{
+    text-decoration: underline;
+}
+.form-check-label{
+    cursor: pointer;
+    text-decoration: inherit;
+}
 .form-check .form-check-input{/* for checkboxes' box. */
     padding: 0px !important;
-}
-  
-.form-check .form-check-label{/* for checkboxes' label */
-    padding: 0px !important;
+    cursor: pointer;
 }
   
 .accordion-button {
