@@ -18,9 +18,11 @@ code {
 }
 
 img.banner_img {
-  width: 100%;
+  width: 1000px;
   height: auto !important;
-  padding: 0 !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container {
@@ -41,7 +43,7 @@ img.banner_img {
 }
 
 .dark-brown {
-  background-color: rgb(99, 52, 2) !important;
+  background-color: #4E2F0F !important;
   border: none !important;
 }
 

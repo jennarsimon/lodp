@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../assets/images/lodp.png';
+import logo from '../assets/images/bw_logo.png';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import '../stylesheets/navbar.css';
 

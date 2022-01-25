@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import banner from './assets/images/banner.jpg';
+import banner from './assets/images/banner.png';
 import Navbar from './components/Navbar.jsx';
 import Footer from './components/Footer.jsx';
 import SearchPage from './components/SearchPage.jsx';
@@ -12,7 +12,11 @@ function App() {
   return (
     <Router>
       <div className="container">
-        { window.location.pathname === '/' && <img className='banner_img' alt='linderman rotunda' src={banner} /> }
+        { window.location.pathname === '/' && 
+          <div className="dark-brown">
+            <img className='banner_img dark-brown' alt='linderman rotunda' src={banner} /> 
+          </div>
+        }
         <Navbar />
         <Route path="/" exact component={SearchPage} />
         <Route path="/aboutus" exact component={AboutUs} />
