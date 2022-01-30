@@ -5,6 +5,15 @@ import "../stylesheets/modal.css";
 
 export default class DatasetModel extends Component {
 
+    constructor(props) {
+        super(props);
+        this.downloadDataset = this.downloadDataset.bind(this);
+    }
+
+    downloadDataset() {
+        console.log(this.props.dataset.data[0]);
+    }
+
     render() {
         return (
             <div className="modal-wrapper">
@@ -19,7 +28,7 @@ export default class DatasetModel extends Component {
                     <p id="date">{moment(this.props.dataset.date).format("YYYY-MM-DD")}</p>
                     <p id="fields-header" className="brown-text">Fields:</p>
                     <p id="fields">{Object.keys(this.props.dataset.data[0][1]).join(", ")}</p>
-                    <h2 id="download"><span className="dark-brown">Download Dataset</span></h2>
+                    <h2 id="download"><span onClick={this.downloadDataset} className="dark-brown white-text">Download Dataset</span></h2>
                 </div>
             </div>
         );
