@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import x from "../assets/images/x.png";
 import moment from "moment";
 import "../stylesheets/modal.css";
+import { CSVLink } from "react-csv";
+import * as XLSX from 'xlsx';
 
 export default class DatasetModel extends Component {
 
@@ -11,7 +13,16 @@ export default class DatasetModel extends Component {
     }
 
     downloadDataset() {
-        console.log(this.props.dataset.data[0]);
+		const filename = this.props.dataset.name + ".xlsx";
+		
+		var newArrayDataOfOjbect = Object.values(this.props.dataset.data[0]);
+		const ws = XLSX.utils.json_to_sheet(newArrayDataOfOjbect);
+		console.log(newArrayDataOfOjbect);
+		const wb = XLSX.utils.book_new();
+		XLSX.utils.book_append_sheet(wb, ws, "tester");
+		console.log(this.props.dataset.data);
+		XLSX.writeFile(wb, filename);
+
     }
 
     render() {
@@ -28,7 +39,9 @@ export default class DatasetModel extends Component {
                     <p id="date">{moment(this.props.dataset.date).format("YYYY-MM-DD")}</p>
                     <p id="fields-header" className="brown-text">Fields:</p>
                     <p id="fields">{Object.keys(this.props.dataset.data[0][1]).join(", ")}</p>
-                    <h2 id="download"><span onClick={this.downloadDataset} className="dark-brown white-text">Download Dataset</span></h2>
+                    <h2 id="download">
+						<button onClick={() => this.downloadDataset()}>Download Data</button>
+					</h2>
                 </div>
             </div>
         );
