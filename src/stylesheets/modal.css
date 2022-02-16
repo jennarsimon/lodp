@@ -116,3 +116,11 @@ span {
     cursor: pointer;
     background-color: rgb(119, 72, 32) !important;
 }
+
+.download-button {
+    border-radius: 5px;
+}
+
+.download-button:hover {
+    background-color: rgb(119, 72, 32) !important;
+}

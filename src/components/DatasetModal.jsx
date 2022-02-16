@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import x from "../assets/images/x.png";
 import moment from "moment";
 import "../stylesheets/modal.css";
-import { CSVLink } from "react-csv";
 import * as XLSX from 'xlsx';
 
 export default class DatasetModel extends Component {
@@ -40,7 +39,7 @@ export default class DatasetModel extends Component {
                     <p id="fields-header" className="brown-text">Fields:</p>
                     <p id="fields">{Object.keys(this.props.dataset.data[0][1]).join(", ")}</p>
                     <h2 id="download">
-						<button onClick={() => this.downloadDataset()}>Download Data</button>
+						<button className="dark-brown white-text download-button" onClick={() => this.downloadDataset()}>Download Data</button>
 					</h2>
                 </div>
             </div>
