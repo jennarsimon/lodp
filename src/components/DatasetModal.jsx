@@ -38,6 +38,8 @@ export default class DatasetModel extends Component {
                     <p id="date">{moment(this.props.dataset.date).format("YYYY-MM-DD")}</p>
                     <p id="fields-header" className="brown-text">Fields:</p>
                     <p id="fields">{Object.keys(this.props.dataset.data[0][1]).join(", ")}</p>
+                    <p id="source-header" className="brown-text">Source:</p>
+                    <p id="source">{this.props.dataset.source}</p>
                     <h2 id="download">
 						<button className="dark-brown white-text download-button" onClick={() => this.downloadDataset()}>Download Data</button>
 					</h2>

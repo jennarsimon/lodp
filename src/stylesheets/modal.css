@@ -98,9 +98,20 @@ span {
     grid-row: 5/6
 }
 
+#source-header {
+    grid-column: 1/2 !important;
+    grid-row: 6/7;
+    font-weight: 700;
+}
+
+#source {
+    grid-column: 2/4;
+    grid-row: 6/7
+}
+
 #download {
     grid-column: 1/4;
-    grid-row: 6/7;
+    grid-row: 7/8;
     text-align: center;
     color: white;
     margin: 16px 0;

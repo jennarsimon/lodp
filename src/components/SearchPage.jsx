@@ -35,7 +35,7 @@ export default class SearchPage extends React.Component {
     handleFilter(event) {
         event.preventDefault();
         const form = new FormData(event.target);
-        const categories = ["academics", "admissions", "athletics", "covid-19", "finances", "postGrad"];
+        const categories = ["academics", "admissions", "athletics", "covid-19", "finances", "postGrad", "studentLife"];
         var newFilter = [];
         for(const c of categories) {
             if (form.get(c)) {
@@ -90,6 +90,7 @@ export default class SearchPage extends React.Component {
                                         <Form.Check type='checkbox' name="covid-19" id={`covid-19`} label={`COVID-19`}/>
                                         <Form.Check type='checkbox' name="finances" id={`finances`} label={`Finances`}/>
                                         <Form.Check type='checkbox' name="postGrad" id={`postGrad`} label={`Post Grad`}/>
+                                        <Form.Check type='checkbox' name="studentLife" id={`studentLife`} label={`Student Life`}/>
                                         <Button variant="primary" type="submit" className="dark-brown filter-submit">
                                             Filter
                                         </Button>
