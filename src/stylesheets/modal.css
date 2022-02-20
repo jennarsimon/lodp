@@ -135,3 +135,7 @@ span {
 .download-button:hover {
     background-color: rgb(119, 72, 32) !important;
 }
+
+a {
+    padding: 0 !important;
+}
